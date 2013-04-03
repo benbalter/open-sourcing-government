@@ -1,5 +1,7 @@
+@import 'bootstrap.min.css';
 @import 'impress';
 @import 'colors';
+@import 'fonts';
 
 /* Background */
 body {
@@ -36,8 +38,12 @@ body {
 }
 
 a {
-    color: $brand-linkBlue;
+    color: $brand-lightGrey;
     text-decoration: none;
+}
+
+a:hover {
+  color: $brand-linkBlue;
 }
 
 h1 { 
@@ -57,7 +63,7 @@ ul {
 }
 
 li {
-  line-height: 1em;
+  line-height: 1.1em;
   padding-bottom: 20px; 
 }
 
@@ -74,6 +80,13 @@ p {
   margin-bottom: 25px; 
 }
 
+code { 
+  font-size: 35px;
+  color: $brand-linkBlue;
+  padding: 0 4px 2px 4px;
+  line-height: 1.5em;
+}
+
 #feedlyMiniIcon { display: none !important; }
 
 /* Geeky lists */
@@ -83,3 +96,6 @@ ol li:before { content: counter(item) ". "; counter-increment: item; }
 #roadmap ol {
   width: 500px;
 }
+
+/* Slide Specific */
+.contact-info { margin-top: 100px; }

@@ -1,6 +1,7 @@
 ---
 x: 4000
 y: 1000
+icon: bolt
 ---
 
 * Discussion, planning, and operations 

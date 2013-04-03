@@ -1,6 +1,7 @@
 ---
 x: 6000
 y: 7000
+icon: gift
 ---
 
 * Proposed changes to the repository

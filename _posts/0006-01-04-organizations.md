@@ -1,6 +1,7 @@
 ---
 x: 6000
 y: 4000
+icon: group
 ---
 
 * Group many users together

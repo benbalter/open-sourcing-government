@@ -1,0 +1,18 @@
+@import 'fontawesome';
+
+@mixin font-face($font-family, $file-path, $weight: normal, $style: normal ) {
+  @font-face {
+      font-family: $font-family;
+      src: url('#{$file-path}.eot');
+      src: url('#{$file-path}.eot?#iefix') format('embedded-opentype'),
+           url('#{$file-path}.woff') format('woff'),
+           url('#{$file-path}.ttf') format('truetype'),
+           url('#{$file-path}.svg##{$font-family}') format('svg');
+      font-weight: $weight;
+      font-style: $style;
+  }
+}
+
+@include font-face(league_gothicregular, '../fonts/league-gothic/League_Gothic-webfont');
+
+h1 { font-family: league_gothicregular, sans-serif; text-transform: uppercase; letter-spacing: 1.5px; }

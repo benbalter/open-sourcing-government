@@ -5,11 +5,10 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{ site.title }}</title>
-        <meta name="description" content="{{ site.description }}">
+        <title>Open Sourcing Government</title>
+        <meta name="description" content="Applying the open-collaboration philosophy to the process of governing">
         <meta name="viewport" content="width=device-width">
 
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
         <link rel="stylesheet" href="assets/css/main.css">
 
     </head>
@@ -24,7 +23,9 @@
           <div id="impress">
             {% for page in site.posts reversed %}
               <div id="{{ page.title | downcase | replace:" ","-" }}" class="step{% if page.slide %} slide{% endif%}" data-x="{{ page.x }}" data-y="{{ page.y }}" data-z="{{ page.z }}" scale="{{ page.scale }}" data-rotate-x="{{ page.rotate-x }}" data-rotate-y="{{ page.rotate-y }}" data-rotate-z="{{ page.rotate-z }}">
-                {% if page.hide_title %}{% else %}<h1>{{ page.title | replace:"Github","GitHub" | markdownify }}</h1>{% endif %}
+                {% if page.hide_title %}{% else %}
+                  <h1>{% if page.icon %}<i class="icon-{{ page.icon }}">&nbsp;</i>{% endif %}{{ page.title | replace:"Github","GitHub" }}</h1>
+                {% endif %}
                 {{ page.content }}
                 {% if page.notes %}{% for note in page.notes %}<div class="notes">{{ note }}</div>{% endfor %}{% endif %}
               </div>
