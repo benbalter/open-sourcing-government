@@ -1,4 +1,3 @@
-
 # Open Sourcing Government
 
 *Applying the open-collaboration philosophy to the process of governing*
@@ -8,6 +7,8 @@
 * Jekyll (ruby)
 
 ## How to view
+
+[View it on GitHub Pages](http://ben.balter.com/open-sourcing-government), or...
 
 1. Clone the repository
 2. `cd` to the directory
@@ -24,5 +25,5 @@
 
 ## License
 
-Code: MIT
-Content: CC-BY-NC
+* Code: MIT
+* Content: CC-BY-NC
