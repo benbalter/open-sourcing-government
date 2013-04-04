@@ -5,6 +5,7 @@ y: 3000
 
 (*thanks*)
 
+* [@mojombo](http://github.com/mojombo) - [Open Source (Almost) Everything](http://tom.preston-werner.com/2011/11/22/open-source-everything.html)
 * {:.twitter} [@tomayko](http://github.com/tomayko) - [Adopt Open Source Process Constraints](http://tomayko.com/writings/adopt-an-open-source-process-constraints)
 * {:.twitter} [@schaon](http://github.com/schacon)  - [GitHub Flow](http://scottchacon.com/2011/08/31/github-flow.html)
 * [@holman](http://github.com/holman) - [How GitHub Works](http://zachholman.com/posts/how-github-works/)

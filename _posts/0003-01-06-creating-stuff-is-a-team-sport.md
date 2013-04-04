@@ -1,6 +1,6 @@
 ---
 x: 3000
-y: 4000
+y: 6000
 ---
 
 * Non-zero sum
@@ -8,3 +8,4 @@ y: 4000
 * Fork, fix, improve, and reinvent
 * No fault mentality
 * Decentralize, reduce friction to contribute
+* Encourage contributors, community
