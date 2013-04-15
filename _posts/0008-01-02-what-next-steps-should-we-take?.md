@@ -8,4 +8,3 @@ y: 2000
 * Make your next new project open source
 * Grow a community
 * Read [Open Source for Government](http://ben.balter.com/open-source-for-government/)
-* GSA [Webinar](http://www.howto.gov/training/classes/github-for-government), 4/16
