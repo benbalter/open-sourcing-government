@@ -1,8 +1,3 @@
----
-x: 7000
-y: 2000
----
-
 1. Draft content in desktop publishing software
 2. Save to shared folder or e-mail around for comments and changes
 3. Manually (and opaquely) reconcile changes one-by-one

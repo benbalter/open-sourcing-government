@@ -1,6 +1,4 @@
 ---
-x: 4000
-y: 3000
 icon: download-alt
 ---
 

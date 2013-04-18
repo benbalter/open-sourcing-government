@@ -1,5 +1,4 @@
 ---
-x: 3000
 hide_title: true
 ---
 

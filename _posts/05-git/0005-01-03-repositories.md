@@ -1,6 +1,4 @@
 ---
-x: 5000
-y: 3000
 icon: folder-open-alt
 ---
 

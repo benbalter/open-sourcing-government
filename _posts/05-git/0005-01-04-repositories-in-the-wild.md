@@ -1,8 +1,3 @@
----
-x: 5000
-y: 4000
----
-
 {% highlight console %}
 $ git clone https://github.com/GSA/federal-open-source-repos
 Cloning into 'federal-open-source-repos'...

@@ -1,8 +1,3 @@
----
-x: 7000
-y: 3000
----
-
 ## Everything is Open Source
 
 * Source Code

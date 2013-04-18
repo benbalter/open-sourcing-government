@@ -1,6 +1,4 @@
 ---
-x: 5000
-y: 2000
 icon: github-sign
 ---
 

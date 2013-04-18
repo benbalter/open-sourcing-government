@@ -1,8 +1,3 @@
----
-x: 2000
-y: 3000
----
-
 * Discussions happen in private (email, hallway)
 * Changes made opaquely, manually
 * Organization knowledge stored in people

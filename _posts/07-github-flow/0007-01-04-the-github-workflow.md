@@ -1,8 +1,3 @@
----
-x: 7000
-y: 4000
----
-
 * Anything in the `master` branch can be shipped
 * To suggest a change, (fork and) create a descriptively named branch
 * Commit to that branch and regularly push your work to GitHub

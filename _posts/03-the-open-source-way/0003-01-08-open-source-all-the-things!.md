@@ -1,6 +1,4 @@
 ---
-x: 3000
-y: 8000
 hide_title: true
 ---
 
