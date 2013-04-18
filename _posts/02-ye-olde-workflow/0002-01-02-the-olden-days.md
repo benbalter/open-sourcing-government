@@ -1,3 +1,7 @@
+---
+icon: backward
+---
+
 * Creation distinct from publication
 * High barrier to collaborate
 * Every man for himself

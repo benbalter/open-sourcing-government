@@ -1,3 +1,7 @@
+---
+icon: cogs
+---
+
 * Discussions happen in private (email, hallway)
 * Changes made opaquely, manually
 * Organization knowledge stored in people
