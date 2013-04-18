@@ -97,5 +97,15 @@ ol li:before { content: counter(item) ". "; counter-increment: item; }
   width: 500px;
 }
 
+/* Code */
+
+.highlight {
+  text-align: left;
+  text-shadow: none;
+}
+
+.highlight code {
+  font-size: 1.7em;
+}
 /* Slide Specific */
 .contact-info { margin-top: 100px; }

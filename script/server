@@ -2,6 +2,9 @@
 
 set -e
 
+echo "compiling CSS"
+bundle exec scss assets/css/main.scss assets/css/main.css
+
 echo "Starting server."
 bundle exec jekyll --server --auto
 

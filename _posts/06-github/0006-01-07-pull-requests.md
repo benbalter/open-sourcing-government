@@ -10,3 +10,4 @@ icon: gift
 * Provide a discussion forum
 * Tied to issues
 * Moderated
+* [Example](https://github.com/alphagov/static/pull/94)

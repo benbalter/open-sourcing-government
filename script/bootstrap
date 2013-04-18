@@ -2,4 +2,8 @@
 
 set -e
 
+echo "Bundle Installin'"
 bundle install
+
+echo "Installing Pygments"
+sudo easy_install Pygments
