@@ -2,4 +2,8 @@
 
 set -e
 
+echo "Starting server."
 bundle exec jekyll --server --auto
+
+echo "Cleaning up..."
+rm -Rf _site
