@@ -1,1 +1,0 @@
-![In which Biff becomes mayor of Hill Valley...](images/alternate-1985.jpg)
