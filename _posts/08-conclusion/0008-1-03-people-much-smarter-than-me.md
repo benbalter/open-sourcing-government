@@ -1,5 +1,5 @@
 
-(*thanks*)
+## (*thanks*)
 
 * [@mojombo](http://github.com/mojombo) - [Open Source (Almost) Everything](http://tom.preston-werner.com/2011/11/22/open-source-everything.html)
 * {:.twitter} [@rtomayko](http://github.com/rtomayko) - [Adopt Open Source Process Constraints](http://tomayko.com/writings/adopt-an-open-source-process-constraints)
