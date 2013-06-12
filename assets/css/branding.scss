@@ -1,0 +1,65 @@
+$font-default: "Helvetica Neue", Helvetica;
+
+/* Override to resolve Font-Awesome and RevealJS styling on icon- */
+i[class^="icon-"]{
+  font-family: FontAwesome;
+  font-style: normal;
+}
+
+html, body{
+  background: #ffffff;
+}
+
+html, body, .reveal{
+  font-family: $font-default;
+  font-size: 22px;
+  line-height: 1.35em;
+}
+
+/* Background Watermark */
+body::before{
+  content: "";
+  -webkit-mask-box-image: url(../img/blacktocat.png) 100% 100% 0 0;
+  background: $brand-linkBlue;
+  position: absolute;
+  opacity: .08;
+  height: 130%;
+  width: 120%;
+  left: 5%;
+  top: 5%;
+}
+
+
+a{
+  color: $brand-linkBlue;
+  text-decoration: none;
+}
+
+pre{
+  box-shadow: 0 0 0 3px $brand-lightGrey;
+  border-radius: .25em;
+  /*font-size: 1.5em !important;*/
+}
+
+pre code{
+  display: block;
+  background: $brand-darkGrey;
+  padding: 1em 1em !important;
+  font-family: $codeFont;
+  color: $brand-green !important;
+  line-height: 1.5em !important;
+  word-wrap: break-word;
+}
+
+h1{
+  font-family: "Apex New", $font-default;
+  color: $brand-darkGrey;
+  text-align: center;
+}
+
+h2{
+  font-family: "Apex New", $font-default !important;
+  font-weight: normal;
+  color: $brand-darkGrey;
+  text-align: center;
+}
