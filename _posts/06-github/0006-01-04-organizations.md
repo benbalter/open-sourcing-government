@@ -1,5 +1,5 @@
 ---
-icon: group
+octicon: person-team
 ---
 
 * Group many users together

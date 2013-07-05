@@ -1,6 +1,7 @@
 @import 'bootstrap.min.css';
 @import "pygments.css";
 @import "fontawesome";
+@import "octicons";
 @import 'impress';
 @import "variables";
 @import "branding";
@@ -79,3 +80,5 @@ ol li:before {
 .contact-info a {
   color: $brand-lightGrey;
 }
+
+.mega-octicon { font-size: 1em; }

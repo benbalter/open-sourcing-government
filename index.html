@@ -27,7 +27,7 @@
 
 
                 {% if page.hide_title %}{% else %}
-                  <h1>{% if page.icon %}<i class="icon-{{ page.icon }}">&nbsp;</i>{% endif %}{{ page.title | replace:"Github","GitHub" }}</h1>
+                  <h1>{% if page.icon %}<i class="icon-{{ page.icon }}">&nbsp;</i>{% endif %}{% if page.octicon %}<span class="mega-octicon octicon-{{ page.octicon }}">&nbsp;</span>{% endif %}{{ page.title | replace:"Github","GitHub" }}</h1>
                 {% endif %}
                 {{ page.content }}
                 {% if page.notes %}{% for note in page.notes %}<div class="notes">{{ note }}</div>{% endfor %}{% endif %}

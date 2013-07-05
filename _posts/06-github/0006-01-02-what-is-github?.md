@@ -1,5 +1,5 @@
 ---
-icon: github-alt
+octicon: mark-github
 ---
 
 * Adds a social layer to Git

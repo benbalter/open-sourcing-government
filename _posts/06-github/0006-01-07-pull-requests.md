@@ -1,5 +1,5 @@
 ---
-icon: gift
+octicon: repo-pull
 ---
 
 * Proposed changes to the repository

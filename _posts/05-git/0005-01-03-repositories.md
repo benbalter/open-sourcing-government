@@ -1,5 +1,5 @@
 ---
-icon: folder-open-alt
+octicon: repo
 ---
 
 * Most basic element of GitHub
