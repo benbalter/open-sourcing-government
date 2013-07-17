@@ -2057,7 +2057,8 @@ ol li:before {
 /* Code */
 .highlight {
   text-align: left;
-  text-shadow: none; }
+  text-shadow: none;
+  width: 101%; }
 
 .highlight code {
   font-size: 1.7em; }
@@ -2071,6 +2072,10 @@ ol li:before {
 
 .mega-octicon {
   font-size: 1em; }
+
+small {
+  font-size: 0.6em;
+  color: #999999; }
 
 @media print {
   * {

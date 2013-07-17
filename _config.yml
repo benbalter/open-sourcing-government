@@ -1,2 +1,3 @@
 exclude: ["script"]
 pygments: true
+markdown: kramdown
