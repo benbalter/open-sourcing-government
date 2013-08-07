@@ -39,45 +39,7 @@
       <script>impress().init();</script>
       <script src="assets/js/external-links.js"></script>
       <script type="text/javascript" src="http://localhost:9292/faye/client.js"></script>        
-      <script type="text/javascript">
-        var client = new Faye.Client('http://localhost:9292/faye');
-
-        var shouldIListen = true;
-
-        var subscription = client.subscribe('/foo', function(message) {
-          console.log("Ok, listening over Faye");
-
-          if (!shouldIListen) {
-            return;
-          }
-
-          if (message.action === "next") {
-            impress().next();
-          }
-
-          if (message.action === "previous") {
-            impress().prev();
-          }
-
-          shouldIListen = true;
-        });
-
-        function checkKey(e) {
-          e = e || window.event;
-
-          shouldIListen = false;
-          
-          spacebarKeyIdentifier = "U+0020";
-          if ((e.keyIdentifier === "Right") || (e.keyIdentifier === spacebarKeyIdentifier)) {
-            client.publish('/foo', {action: 'next'});
-          }
-
-          if (e.keyIdentifier === "Left") {
-            client.publish('/foo', {action: 'previous'});
-          }
-        }
-
-        document.onkeyup = checkKey;
+      <script type="text/javascript" src="assets/js/sync.js">
       </script>
     </body>
 </html>
