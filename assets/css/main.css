@@ -1094,6 +1094,9 @@ small {
 .matrix tbody tr:last-child td:first-child {
   border: none; }
 
+.svn tr td, .git tr td {
+  padding: 10px; }
+
 @media print {
   * {
     background: transparent !important;
