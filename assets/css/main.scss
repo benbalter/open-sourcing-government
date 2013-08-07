@@ -94,6 +94,8 @@ small { font-size: 0.6em; color: $brand-lightGrey; }
 .matrix tbody tr:last-child td {border-top: 1px solid black; padding: 10px 30px 10px 30px; }
 .matrix tbody tr:last-child td:first-child { border:none; }
 
+.svn tr td, .git tr td { padding: 10px; }
+
 @media print {
   * { background: transparent !important; color: black !important; box-shadow:none !important; text-shadow: none !important; } /* Black prints faster: h5bp.com/s */
   a, a:visited { text-decoration: underline; }
