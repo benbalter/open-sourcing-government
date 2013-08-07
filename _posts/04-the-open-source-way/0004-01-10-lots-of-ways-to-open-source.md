@@ -6,6 +6,6 @@ hide_title: true
 
 {: .matrix }
 | Open Government |         |         |             |
-| Open <br />Data       |         |         |             |
+| Open <br />Data |         |         |             |
 | Open Source     |         |         |             |
-|                 | Conusme | Publish | Collaborate |
+|                 | Consume | Publish | Collaborate |
