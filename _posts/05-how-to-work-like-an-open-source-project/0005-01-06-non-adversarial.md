@@ -2,7 +2,7 @@
 icon: heart
 ---
 
-* Meritocricous
+* Meritocracy
 * Egalitarian
 * Informal
 * Open

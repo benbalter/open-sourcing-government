@@ -4,8 +4,8 @@
 {: .small }
 * Kick the tires, does it work?
 * What would you *love* to see?
-* Documenation
-* Community evangalism
+* Documentation
+* Community evangelism
 * Answer Q&A in the forums
 * Genius bar at meetups
 * Translations
