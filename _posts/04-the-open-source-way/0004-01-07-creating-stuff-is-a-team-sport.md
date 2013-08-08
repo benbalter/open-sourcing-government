@@ -1,3 +1,7 @@
+---
+octicon: jersey
+---
+
 * Non-zero sum
 * Free flow of information is crucial
 * Fork, fix, improve, and reinvent
