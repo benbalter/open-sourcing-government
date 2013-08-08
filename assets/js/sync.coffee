@@ -34,4 +34,4 @@ class Sync
   
     @shouldIListen = true
 
-window.sync = new Sync()
+window.sync = new Sync() if Faye?

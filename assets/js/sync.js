@@ -55,6 +55,8 @@
 
   })();
 
-  window.sync = new Sync();
+  if (typeof Faye !== "undefined" && Faye !== null) {
+    window.sync = new Sync();
+  }
 
 }).call(this);
