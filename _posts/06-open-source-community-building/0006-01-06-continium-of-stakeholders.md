@@ -5,7 +5,7 @@
 * Potential users
 * Non-technical users
 * Veteran (or curious) users
-* Subject-matter experts (accessability, content, i18n)
+* Subject-matter experts (accessibility, content, i18n)
 * Technical users
 * Active developers
 * Potential developers

@@ -2,4 +2,4 @@
 hide_title: true
 ---
 
-## *Easier to work together, than alone.*
+## *Easier to work together than alone.*
