@@ -7,4 +7,4 @@ octicon: repo
 * Stores revision history
 * Displays documentation
 * Can have multiple collaborators
-* Can be public or private
+* Can be :unlock: or :closed_lock_with_key:

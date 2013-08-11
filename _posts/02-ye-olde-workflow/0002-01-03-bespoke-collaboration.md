@@ -2,8 +2,8 @@
 icon: cogs
 ---
 
-* Discussions happen in private (email, hallway)
+* Discussions happen in private (:e-mail:, hallway)
 * Changes made opaquely, manually
 * Organization knowledge stored in people
-* Low fidelity (memory, bus factor, time)
-* Scheduling, blockers as a sunk cost
+* Low fidelity (memory, :bus: factor, :watch:)
+* :calendar:, blockers as a sunk cost
