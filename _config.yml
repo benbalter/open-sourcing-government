@@ -4,5 +4,10 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - readme.md
+  - node_modules
+  - ".sass-cache"
+  - "package.json"
+  - "*.scss"
+  - "*.coffee"
 pygments: true
 markdown: kramdown
