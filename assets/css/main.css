@@ -1149,7 +1149,6 @@ small {
     size: landscape; }
 
   .step {
-    page-break-inside: avoid;
     page-break-after: always;
     border: none;
     margin-top: 100px; }
