@@ -5,6 +5,9 @@ set -e
 echo "compiling CSS"
 bundle exec scss assets/css/main.scss assets/css/main.css
 
+echo "compiling JS"
+coffee -c assets/js/deck.coffee
+
 echo "Starting server."
 caffeinate -diu bundle exec jekyll serve -w
 

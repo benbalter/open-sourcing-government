@@ -861,10 +861,10 @@
         This way user will not see the hint moving down.
     */
   -webkit-transition: opacity 1s, -webkit-transform 0.5s 1s;
-  -moz-transition: opacity 1s, -moz-transform 0.5s 1s;
-  -ms-transition: opacity 1s, -ms-transform 0.5s 1s;
-  -o-transition: opacity 1s, -o-transform 0.5s 1s;
-  transition: opacity 1s, transform 0.5s 1s; }
+  -moz-transition: opacity 1s,    -moz-transform 0.5s 1s;
+  -ms-transition: opacity 1s,     -ms-transform 0.5s 1s;
+  -o-transition: opacity 1s,      -o-transform 0.5s 1s;
+  transition: opacity 1s,         transform 0.5s 1s; }
 
 /*
     Now we 'enable' the hint when presentation is initialized ...
@@ -895,10 +895,10 @@
         transition.
     */
   -webkit-transition: opacity 1s 5s, -webkit-transform 0.5s 4.5s;
-  -moz-transition: opacity 1s 5s, -moz-transform 0.5s 4.5s;
-  -ms-transition: opacity 1s 5s, -ms-transform 0.5s 4.5s;
-  -o-transition: opacity 1s 5s, -o-transform 0.5s 4.5s;
-  transition: opacity 1s 5s, transform 0.5s 4.5s; }
+  -moz-transition: opacity 1s 5s,    -moz-transform 0.5s 4.5s;
+  -ms-transition: opacity 1s 5s,     -ms-transform 0.5s 4.5s;
+  -o-transition: opacity 1s 5s,      -o-transform 0.5s 4.5s;
+  transition: opacity 1s 5s,         transform 0.5s 4.5s; }
 
 /*
     And as the last thing there is a workaround for quite strange bug.
@@ -1149,6 +1149,7 @@ small {
     size: landscape; }
 
   .step {
+    page-break-inside: avoid;
     page-break-after: always;
     border: none;
     margin-top: 100px; }

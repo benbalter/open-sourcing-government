@@ -1,0 +1,21 @@
+{
+  "name": "open-sourcing-government",
+  "version": "0.0.1",
+  "description": "*Applying the open-collaboration philosophy to the process of governing*",
+  "main": "script/server",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/benbalter/open-sourcing-government.git"
+  },
+  "author": "Ben Balter",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/benbalter/open-sourcing-government/issues"
+  },
+  "dependencies": {
+    "coffee-script": "~1.6.3"
+  }
+}
