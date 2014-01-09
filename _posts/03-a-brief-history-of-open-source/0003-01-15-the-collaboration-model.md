@@ -1,7 +1,0 @@
----
----
-
-* Simple
-* Open
-* Standardized
-* **Scales**
