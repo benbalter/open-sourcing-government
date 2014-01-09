@@ -18,17 +18,12 @@ html, body, .reveal{
 
 /* Background Watermark */
 body::before{
-  content: "";
-  -webkit-mask-box-image: url(../img/blacktocat.png) 100% 100% 0 0;
-  background: $brand-linkBlue;
+  content: url(../img/blacktocat.png);
   position: absolute;
   opacity: .08;
-  height: 130%;
-  width: 120%;
-  left: 5%;
-  top: 5%;
+  right: -20%;
+  bottom: -10%;
 }
-
 
 a{
   color: $brand-linkBlue;

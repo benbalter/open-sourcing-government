@@ -1,3 +1,9 @@
+---
+hide_title: true
+---
+
+# **Why Not** Open Source?
+
 * <del>Less-secure</del>
 * <del>Poorer quality, :bug:s</del>
 * <del>Higher TCO</del>

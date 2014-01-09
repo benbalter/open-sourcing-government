@@ -24,11 +24,11 @@
         <div class="container">
           <div id="impress">
             {% for page in site.posts reversed %}
-              <div id="{{ page.title | downcase | replace:" ","-" }}" class="step{% if page.slide %} slide{% endif%}" data-x="{{ page.date | date: "%y" | times: 1000 }}" data-y="{{ page.date | date: "%d" | times: 1000 }}" data-z="{{ page.z }}" scale="{{ page.scale }}" data-rotate-x="{{ page.rotate-x }}" data-rotate-y="{{ page.rotate-y }}" data-rotate-z="{{ page.rotate-z }}">
+              <div id="{{ page.title | downcase | replace:" ","-" }}" class="step{% if page.slide %} slide{% endif%}" data-x="{{ page.date | date: "%y" | times: 1500 }}" data-y="{{ page.date | date: "%d" | times: 1000 }}" data-z="{{ page.z }}" scale="{{ page.scale }}" data-rotate-x="{{ page.rotate-x }}" data-rotate-y="{{ page.rotate-y }}" data-rotate-z="{{ page.rotate-z }}">
 
 
                 {% if page.hide_title %}{% else %}
-                  <h1>{% if page.icon %}<i class="icon-{{ page.icon }}">&nbsp;</i>{% endif %}{% if page.octicon %}<span class="mega-octicon octicon-{{ page.octicon }}">&nbsp;</span>{% endif %}{{ page.title | replace:"Github","GitHub" }}</h1>
+                  <h1 class="title">{% if page.icon %}<i class="icon-{{ page.icon }}">&nbsp;</i>{% endif %}{% if page.octicon %}<span class="mega-octicon octicon-{{ page.octicon }}">&nbsp;</span>{% endif %}{{ page.title | replace:"Github","GitHub" }}</h1>
                 {% endif %}
                 {{ page.content }}
                 {% if page.notes %}{% for note in page.notes %}<div class="notes">{{ note }}</div>{% endfor %}{% endif %}

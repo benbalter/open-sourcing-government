@@ -12,12 +12,15 @@ body {
 }
 
 h1 {
-  font-size: 75px;
+  font-size: 55px;
   line-height: 90px;
+  font-weight: normal;
 }
 
+h1.title {font-weight: bold; }
+
 h2 {
-  font-size: 50px;
+  font-size: 40px;
   line-height: 60px;
 }
 
@@ -77,6 +80,7 @@ ol li:before {
 /* Slide Specific */
 .contact-info {
   margin-top: 100px;
+  font-size: 30px;
 }
 
 .contact-info a {
@@ -97,6 +101,19 @@ small { font-size: 0.6em; color: $brand-lightGrey; }
 .matrix tbody tr:last-child td:first-child { border:none; }
 
 .svn tr td, .git tr td { padding: 10px; }
+
+table tr td {
+  padding: 2%;
+}
+
+table.apex-first tr td:first-child {
+  font-family: "Apex New", $font-default;
+  font-weight: bold;
+}
+
+table.squished tr td {
+  padding: 1%;
+}
 
 @media print {
   * { background: transparent !important; color: black !important; box-shadow:none !important; text-shadow: none !important; } /* Black prints faster: h5bp.com/s */

@@ -2,10 +2,11 @@
 hide_title: true
 ---
 
-# Open Source <Br /> All the Things
+# Open Source **All the Things!**
 
-*Taking the open source philosophy <br /> and applying it to*
+*Taking the open collaboration philosophy <br /> and applying it to:*
 
+* Internal collaboration
 * Open Code
 * Open Data
 * Open Government

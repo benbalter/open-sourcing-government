@@ -1,5 +1,9 @@
 ---
+hide_title: true
 ---
+
+{: style="font-size: 48px;" }
+# <span class="mega-octicon octicon-git-pull-request">&nbsp;</span>How to contribute to the **Linux kernel**
 
 	How to Get Your Change Into the Linux Kernel
 	or
@@ -164,9 +168,9 @@
 
 
 	Linus Torvalds is the final arbiter of all changes accepted into the
-	Linux kernel.  His e-mail address is <torvalds@linux-foundation.org>. 
+	Linux kernel.  His e-mail address is <torvalds@linux-foundation.org>.
 	He gets a lot of e-mail, so typically you should do your best to -avoid-
-	sending him e-mail. 
+	sending him e-mail.
 
 	Patches which are bug fixes, are "obvious" changes, or similarly
 	require little discussion should be sent or CC'd to Linus.  Patches
@@ -342,7 +346,7 @@
 
 	Some people also put extra tags at the end.  They'll just be ignored for
 	now, but you can do this to mark internal company procedures or just
-	point out some special detail about the sign-off. 
+	point out some special detail about the sign-off.
 
 	If you are a subsystem or branch maintainer, sometimes you need to slightly
 	modify patches you receive in order to merge them, because the code is not

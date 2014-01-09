@@ -957,15 +957,11 @@ html, body, .reveal {
 
 /* Background Watermark */
 body::before {
-  content: "";
-  -webkit-mask-box-image: url(../img/blacktocat.png) 100% 100% 0 0;
-  background: #4183c4;
+  content: url(../img/blacktocat.png);
   position: absolute;
   opacity: .08;
-  height: 130%;
-  width: 120%;
-  left: 5%;
-  top: 5%; }
+  right: -20%;
+  bottom: -10%; }
 
 a {
   color: #4183c4;
@@ -1001,11 +997,15 @@ body {
   text-align: center; }
 
 h1 {
-  font-size: 75px;
-  line-height: 90px; }
+  font-size: 55px;
+  line-height: 90px;
+  font-weight: normal; }
+
+h1.title {
+  font-weight: bold; }
 
 h2 {
-  font-size: 50px;
+  font-size: 40px;
   line-height: 60px; }
 
 ul {
@@ -1062,7 +1062,8 @@ ol li:before {
 
 /* Slide Specific */
 .contact-info {
-  margin-top: 100px; }
+  margin-top: 100px;
+  font-size: 30px; }
 
 .contact-info a {
   color: #999999; }
@@ -1099,6 +1100,16 @@ small {
 
 .svn tr td, .git tr td {
   padding: 10px; }
+
+table tr td {
+  padding: 2%; }
+
+table.apex-first tr td:first-child {
+  font-family: "Apex New", "Helvetica Neue", Helvetica;
+  font-weight: bold; }
+
+table.squished tr td {
+  padding: 1%; }
 
 @media print {
   * {

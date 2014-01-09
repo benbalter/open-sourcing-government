@@ -1,6 +1,9 @@
 ---
 octicon: jersey
+hide_title: true
 ---
+
+# Creating stuff is **a team sport**
 
 * Non-zero sum
 * Free flow of information is crucial

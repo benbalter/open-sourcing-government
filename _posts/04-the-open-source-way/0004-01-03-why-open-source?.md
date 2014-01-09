@@ -1,3 +1,9 @@
+---
+hide_title: true
+---
+
+# **Why** Open Source?
+
 * We're all on the same team (org, gov, public)
 * Great advertising, force multiplier
 * Modularization, reduce duplication

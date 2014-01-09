@@ -1,5 +1,5 @@
 ---
-icon: github-sign
+octicon: git-branch
 ---
 
 * Open Source
