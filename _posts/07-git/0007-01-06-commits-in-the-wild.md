@@ -1,1 +1,0 @@
-![Commit Log](images/commit-log.png)
