@@ -9,4 +9,4 @@ hide_title: true
 * Internal collaboration
 * Open Code
 * Open Data
-* Open Government
+* Open Content
